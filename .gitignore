@@ -1,0 +1,29 @@
+# Raw and processed data (generate locally; do not commit)
+dataset/
+cv_project/
+cv_project_data/
+processed_clips/
+*.npz
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Training artifacts
+checkpoints/
+logs/
+*.pt
+*.pth

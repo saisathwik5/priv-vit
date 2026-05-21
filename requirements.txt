@@ -1,0 +1,8 @@
+torch>=2.0
+torchvision
+opencv-python-headless
+numpy
+pandas
+tqdm
+timm
+retina-face
