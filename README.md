@@ -91,4 +91,93 @@ Set `DRIVE_ROOT = './cv_project'` in the notebook configuration cell and run wit
 
 ## Citation
 
-If you use this implementation, please cite the original Priv-ViT paper and the EPIC-KITCHENS-100 dataset.
+This is a course project (CS 6384, UT Dallas, Spring 2026), not a published paper.
+If you build on this implementation, please cite the works it is based on:
+
+**EPIC-KITCHENS-100 (dataset):**
+```bibtex
+@article{Damen2022RESCALING,
+  author    = {Damen, Dima and Doughty, Hazel and Farinella, Giovanni Maria and
+               Furnari, Antonino and Ma, Jian and Kazakos, Evangelos and
+               Moltisanti, Davide and Munro, Jonathan and Perrett, Toby and
+               Price, Will and Wray, Michael},
+  title     = {Rescaling Egocentric Vision: Collection, Pipeline and Challenges
+               for EPIC-KITCHENS-100},
+  journal   = {International Journal of Computer Vision},
+  year      = {2022},
+  volume    = {130},
+  pages     = {33--55},
+  url       = {https://doi.org/10.1007/s11263-021-01531-2}
+}
+```
+
+**ViViT (student backbone):**
+```bibtex
+@InProceedings{Arnab2021ViViT,
+  author    = {Arnab, Anurag and Dehghani, Mostafa and Heigold, Georg and
+               Sun, Chen and Lu\v{c}i\'c, Mario and Schmid, Cordelia},
+  title     = {{ViViT}: A Video Vision Transformer},
+  booktitle = {Proceedings of the IEEE/CVF International Conference on
+               Computer Vision (ICCV)},
+  year      = {2021},
+  pages     = {6836--6846}
+}
+```
+
+**SlowFast-R50 (distillation teacher):**
+```bibtex
+@InProceedings{Feichtenhofer2019SlowFast,
+  author    = {Feichtenhofer, Christoph and Fan, Haoqi and
+               Malik, Jitendra and He, Kaiming},
+  title     = {{SlowFast} Networks for Video Recognition},
+  booktitle = {Proceedings of the IEEE/CVF International Conference on
+               Computer Vision (ICCV)},
+  year      = {2019},
+  pages     = {6202--6211}
+}
+```
+
+**SPAct (privacy-preserving recognition baseline):**
+```bibtex
+@InProceedings{Dave2022SPAct,
+  author    = {Dave, Ishan and Gupta, Rohit and Rizve, Mamshad Nayeem
+               and Shah, Mubarak},
+  title     = {{SPAct}: Self-Supervised Privacy Preservation for Action Recognition},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision
+               and Pattern Recognition (CVPR)},
+  year      = {2022}
+}
+```
+
+**RetinaFace (face detection in privacy pipeline):**
+```bibtex
+@InProceedings{Deng2020RetinaFace,
+  author    = {Deng, Jiankang and Guo, Jia and Ververas, Evangelos and
+               Kotsia, Irene and Zafeiriou, Stefanos},
+  title     = {{RetinaFace}: Single-Shot Multi-Level Face Localisation in the Wild},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision
+               and Pattern Recognition (CVPR)},
+  year      = {2020}
+}
+```
+
+**MobileViT (efficiency baseline):**
+```bibtex
+@InProceedings{Mehta2022MobileViT,
+  author    = {Mehta, Sachin and Rastegari, Mohammad},
+  title     = {{MobileViT}: Light-Weight, General-Purpose, and
+               Mobile-Friendly Vision Transformer},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2022}
+}
+```
+
+**Knowledge distillation:**
+```bibtex
+@inproceedings{Hinton2015Distilling,
+  author    = {Hinton, Geoffrey and Vinyals, Oriol and Dean, Jeff},
+  title     = {Distilling the Knowledge in a Neural Network},
+  booktitle = {NeurIPS Deep Learning and Representation Learning Workshop},
+  year      = {2015}
+}
+```
